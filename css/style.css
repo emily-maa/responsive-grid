@@ -142,7 +142,7 @@ first div in the grid  and place it in the grid. */
 .container div:first-child{
   background-image: url(../images/header.jpg);
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: -1;
   min-height: 500px;
   
 }
