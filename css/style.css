@@ -132,7 +132,7 @@ top: 20px;
 /* Step 4: Write selector/rule property to style the container */
 .container{
   grid-template-columns: 1fr 5fr 1fr;
-  column-gap: 15px;
+  grid-gap: 15px;
   display: grid;
 }
 img{width: 100%;}
